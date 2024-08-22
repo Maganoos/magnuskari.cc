@@ -1,0 +1,61 @@
+body {
+    font-family: 'Monda';font-size: 22px;
+    background-image: url(src/batman.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    text-align: center;
+    margin: 50px;
+    color:tomato;
+    @media all and (max-width: 499px) {
+        background-image: url(src/batman_mobile.webp);
+        background-position: center;
+      }
+
+}
+
+
+.buttons {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.carrd:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:#FFFFFF;
+    color:#777770;
+    cursor:pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.prns:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:#FFFFFF;
+    color:#777770;
+    cursor:pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.carrd {
+    background-color: #04AA6D;
+    border-color: #00FF90;
+    font-family: 'Monda';
+    font-size: 25px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.prns {
+    background-color: #008CBA;
+    border-color:#0090FF;
+    font-family: 'Monda';
+    font-size: 25px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
