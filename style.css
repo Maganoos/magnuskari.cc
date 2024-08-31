@@ -3,7 +3,6 @@ body {
     background-image: url(src/batman.webp);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position:center;
     text-align: center;
     margin: 50px;
     color:tomato;
